@@ -1,3 +1,28 @@
 hello, git1
 C:/Users/Levon/Desktop/GeekBrains/GitTest
 45
+
+команды
+git --version                                          (узнать версию git)
+git config --global user.name "Levon"                  (задать имя)
+git config --global user.email Antonyan.lev@yandex.ru  (задать почту)
+git config --list                                      (показать текущие настройки)
+git config --list --show-origin                        (показать файл с настройками)
+git init                                               (пометить папку как git-проект)
+git add .                                              (добавить все файлы проекта под контроль git)
+git add hello.txt                                      (добавить файл hello.txt под контроль git)
+git commit -m 'Первый коммит'                          (Коммит. Если не указать коммент, то можно в блокноте)
+git config core.editor notepad                         (задать блокнот редактором коммитов по умолчанию) 
+gitk                                                   (графический клиент коммитов с историей изменений)
+git clone https://github.com/web-standards-ru/dictionary.git (клонировать репозиторий)
+
+---------------------------
+mkdir test                                             (создать папку test)
+cd test                                                (зайти в папку test)
+touch hello.txt                                        (создать файл hello.txt)
+echo 'Hello, world!'                                   (вывести в консоль 'Hello, world!)
+echo 'Hello, world!' > hello.txt                       (записать 'Hello, world!' в файл hello.txt)
+
+
+
+
