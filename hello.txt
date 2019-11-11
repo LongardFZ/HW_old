@@ -15,13 +15,15 @@ git commit -m 'Первый коммит'                          (Коммит
 git config core.editor notepad                         (задать блокнот редактором коммитов по умолчанию) 
 gitk                                                   (графический клиент коммитов с историей изменений)
 git clone https://github.com/web-standards-ru/dictionary.git (клонировать репозиторий)
-
+git status                                             (состояние индекса git)
+git diff                                               (посмотреть что было изменено) 
 ---------------------------
 mkdir test                                             (создать папку test)
 cd test                                                (зайти в папку test)
 touch hello.txt                                        (создать файл hello.txt)
 echo 'Hello, world!'                                   (вывести в консоль 'Hello, world!)
 echo 'Hello, world!' > hello.txt                       (записать 'Hello, world!' в файл hello.txt)
+ls                                                     (посмотреть содержимое текущей директории)
 
 
 
